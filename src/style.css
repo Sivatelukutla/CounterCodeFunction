@@ -1,0 +1,22 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  .add-btn, .edit-btn, .delete-btn {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .add-btn { background-color: #4CAF50; color: white; }
+  .edit-btn { background-color: #FFC107; color: white; }
+  .delete-btn { background-color: #F44336; color: white; }
+  .country, .state, .city {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
